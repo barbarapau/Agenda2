@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    app:layout_anchorGravity="center"
+    tools:context=".CalenAnual">
+
+    <LinearLayout
+        android:id="@+id/vistaCalendarioMes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_nomMes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:capitalize="words"
+            android:fontFamily="@font/arcon"
+            android:text="ENERO"
+            android:textAlignment="center"
+            android:textSize="11sp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/fondo_calendario"
+            android:foregroundGravity="center"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fondo_dia_n">
+
+                <TextView
+                    android:id="@+id/txtL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_lunes"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_martes"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_miercoles"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_jueves"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_viernes"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_sabado"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/txtD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arcon"
+                    android:text="@string/p_domingo"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt1_1"
+                    style="@style/calendario"
+                    />
+
+                <TextView
+                    android:id="@+id/txt1_2"
+                    style="@style/calendario"
+                    />
+
+                <TextView
+                    android:id="@+id/txt1_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt1_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt1_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt1_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt1_7"
+                    style="@style/calendario" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt2_1"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_2"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt2_7"
+                    style="@style/calendario" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt3_1"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_2"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt3_7"
+                    style="@style/calendario" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt4_1"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_2"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt4_7"
+                    style="@style/calendario" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt5_1"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_2"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt5_7"
+                    style="@style/calendario" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt6_1"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_2"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_3"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_4"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_5"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_6"
+                    style="@style/calendario" />
+
+                <TextView
+                    android:id="@+id/txt6_7"
+                    style="@style/calendario" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

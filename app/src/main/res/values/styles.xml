@@ -1,0 +1,169 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fondo</item>
+        <item name="colorPrimaryDark">@color/color_app</item>
+        <item name="colorAccent">@color/color_app</item>
+        <item name="android:colorBackground">@color/blanco</item>
+        <item name="buttonStyle">@style/miBoton</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="dialog2" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/transparente</item>
+        <item name="buttonStyle">@style/miBoton</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">2dp</item>
+
+    </style>
+
+
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="buttonStyle">@style/miBoton</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="imagen_calenda" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/transparente</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="calenda">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/transparente</item>
+        <item name="android:textColor">@color/marron</item>
+        <item name="android:textSize">@dimen/letra_calendario</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+
+
+    </style>
+
+    <style name="calenda2">
+        <item name="android:gravity">center</item>
+        <item name="android:src">@mipmap/nube</item>
+        <item name="android:textColor">@color/marron</item>
+        <item name="android:textSize">@dimen/letra_calendario</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+
+
+
+    </style>
+
+    <style name="mas" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorBackground">@color/transparente</item>
+        <item name="buttonStyle">@style/miBoton</item>
+    </style>
+
+    <style name="inicio" parent="Theme.AppCompat.Dialog">
+        <item name="android:colorBackground">@color/transparente</item>
+        <item name="buttonStyle">@style/miBoton</item>
+    </style>
+
+    <style name="miBoton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="calendar" parent="calenda">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="cf" parent="calendar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="boton_mas">
+
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/blanco</item>
+        <item name="android:textColor">@color/marron</item>
+    </style>
+
+    <style name="wig">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="calendario">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="anadirDias_semana">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/fondo_dia_n</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="anadirDias_fin">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/blanco</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/fondo_dia_n</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="tablaCalendario">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+</resources>

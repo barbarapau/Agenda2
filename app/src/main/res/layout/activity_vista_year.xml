@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tablaAnual"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".vista_year">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_fondo_n"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtBarraAño"
+            android:layout_width="319dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/arcon"
+            android:gravity="center_vertical"
+            android:text="Año"
+            android:textColor="@color/gris_letra_n"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/btnBarraDiaAño"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/dia_hoy_nuevo_foreground"
+            android:fontFamily="@font/bubbler_one"
+            android:paddingTop="6dp"
+            android:textSize="12sp"
+            tools:text="12" />
+
+        <Button
+            android:id="@+id/btnMes"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginStart="6dp"
+            android:background="@mipmap/ano_nuevo_foreground"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        app:layout_anchorGravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/f1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/f1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/f2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/f2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/f3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/f3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

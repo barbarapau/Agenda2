@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="abr">APRIL</string>
+    <string name="aceptar">Save</string>
+    <string name="ago">AUGUST</string>
+    <string name="dic">DECEMBER</string>
+    <string name="empezar">Start</string>
+    <string name="error_evento">There is no text to save</string>
+    <string name="evento1">You have an event</string>
+    <string name="inicio">Welcome, press and hold the day you want to add a new event.</string>
+    <string name="jul">JULY</string>
+    <string name="jun">JUNE</string>
+    <string name="mas">More</string>
+    <string name="mas_dias">Add this same event to other days</string>
+    <string name="may">MAY</string>
+    <string name="modifica_color">Change the color</string>
+    <string name="nov">NOVEMBER</string>
+    <string name="oct">OCTOBER</string>
+    <string name="ocultar">Hide</string>
+    <string name="sep">SEPTEMBER</string>
+    <string name="texto">Add Text</string>
+    <string name="texto_evento">Add a text</string>
+    <string name="domingo">Su</string>
+    <string name="jueves">Th</string>
+    <string name="lunes">Mo</string>
+    <string name="martes">Tu</string>
+    <string name="miercoles">We</string>
+    <string name="sabado">Sa</string>
+    <string name="viernes">Fr</string>
+    <string name="ene">JANUARY</string>
+    <string name="feb">FEBRUARY</string>
+    <string name="mar">MARCH</string>
+    <string name="agenda" >Calen</string>
+    <string name="mes_actual">Today</string>
+    <string name="error">Error. Delete and recreate it</string>
+    <string name="p_lunes">M</string>
+    <string name="p_martes">T</string>
+    <string name="p_miercoles">W</string>
+    <string name="p_sabado">S</string>
+    <string name="p_domingo">S</string>
+    <string name="p_jueves">T</string>
+    <string name="p_viernes">W</string>
+    <string name="repetir">Repeat</string>
+    <string name="cancelar">Cancel</string>
+    <string name="guardar">Save</string>
+</resources>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="smile.agenda.ListaImagenesMenu">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/fech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/a_n"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arcon"
+                android:gravity="center"
+                android:textColor="@color/gris_fondo"
+                android:textSize="25sp"
+                tools:text="12/04/2019" />
+
+            <TextView
+                android:id="@+id/txt_hora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/open_sans"
+                android:text="18:15h"
+                android:textAlignment="textEnd"
+                android:textColor="@color/gris_fondo"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/paleta_foreground" />
+
+        <Button
+            android:id="@+id/btnHora"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/reloj_foreground" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginBottom="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+
+            android:id="@+id/txtTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/texto_evento"
+            android:inputType="textMultiLine"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnMenuImagen"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@mipmap/iconos_foreground"
+
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/anaranjado" />
+    <Button
+        android:id="@+id/btnMasDias"
+        style="@style/boton_mas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/transparente"
+        android:fontFamily="@font/arcon"
+        android:text="@string/repetir"
+        android:gravity="left|bottom"
+        android:textColor="@color/gris"
+        android:textSize="24sp" />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/anaranjado" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:layout_gravity="right"
+        android:gravity="right|bottom">
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="12dp"
+            android:padding="5dp"
+            android:background="@color/transparente"
+            android:fontFamily="@font/arcon"
+            android:text="@string/cancelar"
+            android:textColor="@color/gris"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/btnGuardar"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparente"
+            android:fontFamily="@font/arcon"
+            android:text="@string/guardar"
+            android:textColor="@color/gris"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>

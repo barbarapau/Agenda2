@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smile.agenda">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calendario"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/calendario_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tutorial"></activity>
+        <activity android:name=".calendario" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3132149477087366~9478741022" />
+
+        <activity
+            android:name=".Dibujos"
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".Colores"
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog" />
+        <activity android:name=".vista_year" />
+        <activity
+            android:name=".animacion"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaImagenesMenu"
+            android:label="@string/title_activity_lista_imagenes_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <service android:name=".Aviso" />
+
+        <receiver android:name=".Notificacion" />
+
+        <activity
+            android:name=".AnadirDias"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog2" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="lunes">Lu</string>
+    <string name="martes">Ma</string>
+    <string name="miercoles">Mi</string>
+    <string name="jueves">Ju</string>
+    <string name="viernes">Vi</string>
+    <string name="sabado">Sa</string>
+    <string name="domingo">Do</string>
+    <string name="ene">ENERO</string>
+    <string name="feb">FEBRERO</string>
+    <string name="mar">MARZO</string>
+    <string name="abr">ABRIL</string>
+    <string name="may">MAYO</string>
+    <string name="jun">JUNIO</string>
+    <string name="jul">JULIO</string>
+    <string name="ago">AGOSTO</string>
+    <string name="sep">SEPTIEMBRE</string>
+    <string name="oct">OCTUBRE</string>
+    <string name="nov">NOVIEMBRE</string>
+    <string name="dic">DICIEMBRE</string>
+    <string name="guardar">Guardar</string>
+    <string name="imagen" translatable="false">Incluir una imagen</string>
+    <string name="texto">Añadir texto</string>
+    <string name="texto_evento">Añadir un texto</string>
+    <string name="error_evento">No hay texto que guardar</string>
+    <string name="imagen_evento" translatable="false">Y si quieres una imagen</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_lista_imagenes_menu" translatable="false">ListaImagenesMenu</string>
+    <string name="baner_inicio" translatable="false">ca-app-pub-3132149477087366/1222521648</string>
+    <string name="i" translatable="false">Imagen</string>
+    <string name="inicio">Bienvenido, manten pulsado el dia donde quieres añadir un nuevo evento.</string>
+    <string name="empezar">Empezar</string>
+    <string name="evento1">Tienes un evento</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="mas_dias">Añadir el mismo evento a mas dias</string>
+    <string name="mas">Mas</string>
+    <string name="modifica_color">Modifica el color</string>
+    <string name="ocultar">Ocultar</string>
+    <string name="guion" translatable="false">"-"</string>
+    <string name="agenda">Calen</string>
+    <string name="mes_actual">Hoy</string>
+    <string name="error">Error. Elimine y vuelva a crearlo "</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="menu_tools" translatable="false">Tools</string>
+    <string name="menu_share" translatable="false">Share</string>
+    <string name="menu_send" translatable="false">Send</string>
+
+    <string name="menu_ano" translatable="false">Ver año completo</string>
+    <string name="menu_copia" translatable="false">Copia seguridad</string>
+    <string name="menu_enviar" translatable="false">Compartir</string>
+    <string name="menu_ir_dia" translatable="false">Ir a dia de hoy</string>
+    <string name="menu_copia_sd" translatable="false">Guardar en SD</string>
+    <string name="menu_copia_mail" translatable="false">Enviar mail</string>
+    <string name="asunto_mail" translatable="false">Copia seguridad</string>
+    <string name="texto_mail" translatable="false">Este email contiene la copia de seguridad de la app Calen60th</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="repetir">Repetir</string>
+    <string name="title_activity_colores" translatable="false">Colores</string>
+    <string name="p_lunes">L</string>
+    <string name="p_martes">M</string>
+    <string name="p_miercoles">X</string>
+    <string name="p_jueves">J</string>
+    <string name="p_viernes">V</string>
+    <string name="p_sabado">S</string>
+    <string name="p_domingo">D</string>
+    <string name="tu1" translatable="false">Manten pulsado para ver el mes siguiente</string>
+    <string name="tu2" translatable="false">Cambia de mes</string>
+    <string name="tu3" translatable="false">Pulsa para ver el año completo</string>
+    <string name="tu4" translatable="false">Vuelve a la fecha actual</string>
+    <string name="tu5" translatable="false">Selecciona el mes que quieras ver al detalle</string>
+    <string name="tu6" translatable="false">Crea un nuevo evento</string>
+    <string name="tu61" translatable="false">Selecciona una fecha y pulsa</string>
+    <string name="tu62" translatable="false">Desde aqui podras repetir el mismo evento, añadirle una imagen o un color</string>
+</resources>
+
+

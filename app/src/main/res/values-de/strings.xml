@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="abr">APRIL</string>
+    <string name="aceptar">Zu retten</string>
+    <string name="ago">AUGUST</string>
+    <string name="dic">DEZEMBER</string>
+    <string name="empezar">Anfangen</string>
+    <string name="error_evento">Es gibt keinen Text zum Speichern</string>
+    <string name="evento1">Sie haben eine Veranstaltung</string>
+    <string name="inicio">Willkommen, drücken und halten Sie den Tag, an dem Sie eine neue Veranstaltung hinzufügen möchten.</string>
+    <string name="jul">JULI</string>
+    <string name="jun">JUNI</string>
+    <string name="mas">Mehr</string>
+    <string name="mas_dias">Füge das gleiche Ereignis zu anderen Tagen hinzu</string>
+    <string name="may">MAI</string>
+    <string name="modifica_color">Ändern Sie die Farbe</string>
+    <string name="nov">NOVEMBER</string>
+    <string name="oct">OKTOBER</string>
+    <string name="ocultar">Verstecken</string>
+    <string name="sep">SEPTEMBER</string>
+    <string name="texto">Text hinzufügen</string>
+    <string name="texto_evento">Fügen Sie einen Text hinzu</string>
+    <string name="ene">JANUAR</string>
+    <string name="feb">FEBRUAR</string>
+    <string name="jueves">Do</string>
+    <string name="lunes">Mo</string>
+    <string name="martes">Di</string>
+    <string name="miercoles">Mi</string>
+    <string name="sabado">Sa</string>
+    <string name="viernes">Fr</string>
+    <string name="domingo">So</string>
+    <string name="mar">MÄRZ</string>
+    <string name="agenda" >Calen</string>
+    <string name="mes_actual">Heute</string>
+    <string name="error">Fehler Löschen und neu erstellen</string>
+    <string name="repetir">Wiederholen</string>
+    <string name="p_viernes">F</string>
+    <string name="p_sabado">S</string>
+    <string name="p_jueves">D</string>
+    <string name="p_lunes">M</string>
+    <string name="p_martes">D</string>
+    <string name="p_miercoles">M</string>
+    <string name="p_domingo">S</string>
+    <string name="cancelar">Abbrechen</string>
+    <string name="guardar">Speichern</string>
+</resources>
+

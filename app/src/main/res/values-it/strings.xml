@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="abr">APRILE</string>
+    <string name="aceptar">Salvare</string>
+    <string name="ago">AGOSTO</string>
+    <string name="dic">DICEMBRE</string>
+    <string name="empezar">Cominciare</string>
+    <string name="error_evento">Non esiste alcun testo da salvare</string>
+    <string name="evento1">Hai un evento</string>
+    <string name="inicio">Benvenuti, tenere premuto il giorno in cui si desidera aggiungere un nuovo evento.</string>
+    <string name="jul">LUGLIO</string>
+    <string name="jun">GIUGNO</string>
+    <string name="mas">Più</string>
+    <string name="mas_dias">Aggiungi questo stesso evento ad altri giorni</string>
+    <string name="may">MAGGIO</string>
+    <string name="modifica_color">Cambiare il colore</string>
+    <string name="nov">NOVEMBRE</string>
+    <string name="oct">OTTIBRE</string>
+    <string name="ocultar">Nascondere</string>
+    <string name="sep">SETTEMBRE</string>
+    <string name="texto">Aggiungi testo</string>
+    <string name="texto_evento">Aggiungi un testo</string>
+    <string name="ene">GENNAIO</string>
+    <string name="feb">FEBBRAIO</string>
+    <string name="mar">MARZO</string>
+    <string name="domingo">Do</string>
+    <string name="jueves">Gi</string>
+    <string name="lunes">Lu</string>
+    <string name="martes">Ma</string>
+    <string name="miercoles">Me</string>
+    <string name="sabado">Sa</string>
+    <string name="viernes">Ve</string>
+    <string name="agenda">Calen</string>
+    <string name="mes_actual">Oggi</string>
+    <string name="error">Errore. Elimina e ricrea</string>
+    <string name="repetir">Ripetizione</string>
+    <string name="p_viernes">V</string>
+    <string name="p_sabado">S</string>
+    <string name="p_jueves">G</string>
+    <string name="p_lunes">L</string>
+    <string name="p_martes">M</string>
+    <string name="p_miercoles">M</string>
+    <string name="p_domingo">D</string>
+    <string name="cancelar">Annullare</string>
+    <string name="guardar">Salva</string>
+</resources>
+

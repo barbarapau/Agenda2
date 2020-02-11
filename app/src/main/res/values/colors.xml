@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="azul">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="transparente">#00ffffff</color>
+    <color name="rosa">#95002B</color>
+    <color name="color_app">#008080</color>
+    <color name="color_app_claro">#6f008080</color>
+    <color name="app_oscuro">#006363</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name= "amarillo">#FAC62F</color>
+    <color name="beis">#FFDDC1</color>
+    <color name="naranja">#F95428</color>
+    <color name="dorado">#F7B239</color>
+    <color name="dorado_claro">#8ff7b239</color>
+    <color name="gris">#72797C</color>
+    <color name="gris_fondo">#ECEFF1</color>
+    <color name="marron">#534741</color>
+    <color name="fondo">#a7ccc7</color>
+
+    <color name="rojo">#EC877E</color>
+    <color name="mostaza">#F4D696</color>
+    <color name="amari">#F3DD80</color>
+    <color name="verdoso">#86C5B2</color>
+    <color name="verde">#6B8877</color>
+    <color name="anaranjado">#E4905D</color>
+    <color name="blanco_manchado">#f8f6db</color>
+    <color name="azul_titulo">#1D3B3A</color>
+    <color name="blanco_titulo">#f3e9d1</color>
+    <color name="gris_noseleccionable">#DCD7D6</color>
+    <color name="verde_c">#756b8877</color>
+    <color name="blanco_titulo_c">#8cf3e9d1</color>
+    <color name="verdoso_c">#7686c5b2</color>
+    <color name="rosa_c">#6895002b</color>
+    <color name="azul_titulo_c">#6f1d3b3a</color>
+    <color name="gris_noselect_texto">#A9A7A6</color>
+    <color name="e_n">#F06292</color>
+    <color name="f_n">#26C6DA</color>
+    <color name="m_n">#D4E157</color>
+    <color name="a_n">#4DB6AC</color>
+    <color name="my_n">#FDD835</color>
+    <color name="j_n">#EC407A</color>
+    <color name="jl_n">#26C6DA</color>
+    <color name="ag_n">#26A69A</color>
+    <color name="s_n">#FF7043</color>
+    <color name="o_n">#AFB42B</color>
+    <color name="nv_n">#FFA726</color>
+    <color name="d_n">#90A4AE</color>
+    <color name="fondo_dia_n">#CFD8DC</color>
+    <color name="fondo_calendario">#ECEFF1</color>
+    <color name="azul_fondo_n">#546c7c</color>
+    <color name="gris_letra_n">#e8eaf1</color>
+    <color name="f">#a8d8a7</color>
+    <color name="g">#e6526e</color>
+    <color name="h">#a93969</color>
+    <color name="i">#57bbe0</color>
+    <color name="j">#355f9f</color>
+    <color name="k">#9aa9c9</color>
+    <color name="l">#cd95aa</color>
+    <color name="m">#c2dec9</color>
+    <color name="n">#2079a6</color>
+    <color name="o">#f18b22</color>
+
+
+
+
+</resources>

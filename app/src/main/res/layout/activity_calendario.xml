@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:gravity="center"
+
+    tools:context="smile.agenda.calendario">
+
+<LinearLayout
+    android:id="@+id/barraMes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/e_n"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBarraMes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:capitalize="words"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="center_vertical"
+                android:text="ENERO"
+                android:textColor="@color/blanco"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/blanco"
+                android:textSize="20sp"
+                tools:text="2019" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:gravity="right|center_vertical">
+
+            <Button
+                android:id="@+id/btnBarraDiaMes"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@mipmap/dia_hoy_nuevo_foreground"
+                android:fontFamily="@font/bubbler_one"
+                android:paddingTop="6dp"
+                android:textSize="12sp"
+                tools:text="12" />
+
+            <Button
+                android:id="@+id/btnAño"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@mipmap/ano_nuevo_foreground"
+                android:paddingTop="6dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+        <TableLayout
+            android:id="@+id/tablaImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@color/fondo_calendario">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.1"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/l"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/lunes"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ma"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/martes"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/m"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/miercoles"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/j"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/jueves"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/v"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/viernes"
+                    android:textAllCaps="true"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/s"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/sabado"
+                    android:textAllCaps="true"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/domingo"
+                    android:textAllCaps="true"
+                    android:textColor="@color/marron"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+
+
+            <TableRow style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i11"
+                    style="@style/calenda2"/>
+
+                <ImageView
+                    android:id="@+id/i12"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i13"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i14"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i15"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i16"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i17"
+                    style="@style/calenda2" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i21"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i22"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i23"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i24"
+
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i25"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i26"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i27"
+                    style="@style/calenda2" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i31"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i32"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i33"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i34"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i35"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i36"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i37"
+                    style="@style/calenda2" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i41"
+
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i42"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i43"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i44"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i45"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i46"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i47"
+                    style="@style/calenda2" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i51"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i52"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i53"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i54"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i55"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i56"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i57"
+                    style="@style/calenda2" />
+
+
+            </TableRow>
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <ImageView
+                    android:id="@+id/i61"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i62"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i63"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i64"
+                    style="@style/calenda2" />
+
+                <ImageView
+                    android:id="@+id/i65"
+                    style="@style/calenda2" />
+
+                <ImageView android:id="@+id/i66"
+                    style="@style/calenda2"/>
+
+                <ImageView
+                    android:id="@+id/i67"
+                    style="@style/calenda2" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablaFondo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <TableRow
+                style="@style/tablaCalendario"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.1">
+
+                <TextView
+                    android:id="@+id/lunes"
+
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fondo_dia_n"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/lunes"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/martes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fondo_dia_n"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/martes"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/miercoles"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fondo_dia_n"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/miercoles"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/jueves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fondo_dia_n"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/jueves"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/viernes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fondo_dia_n"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/viernes"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blanco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sabado"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/blanco"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/sabado"
+                    android:textAllCaps="true"
+                    android:textColor="@color/fondo_dia_n"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/domingo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/blanco"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/domingo"
+                    android:textAllCaps="true"
+                    android:textColor="@color/fondo_dia_n"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b11"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+
+                <TextView
+                    android:id="@+id/b12"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b13"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b14"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b15"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b16"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b17"
+                    style="@style/calenda" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b21"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+                <TextView
+                    android:id="@+id/b22"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b23"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b24"
+
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b25"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b26"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b27"
+                    style="@style/calenda" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b31"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+                <TextView
+                    android:id="@+id/b32"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b33"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b34"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b35"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b36"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b37"
+                    style="@style/calenda" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b41"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+                <TextView
+                    android:id="@+id/b42"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b43"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b44"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b45"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b46"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b47"
+                    style="@style/calenda" />
+
+            </TableRow>
+
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b51"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+                <TextView
+                    android:id="@+id/b52"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b53"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b54"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b55"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b56"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b57"
+                    style="@style/calenda" />
+
+
+            </TableRow>
+
+            <TableRow
+                style="@style/tablaCalendario">
+
+                <TextView
+                    android:id="@+id/b61"
+                    style="@style/calenda"
+                    android:background="@mipmap/nube" />
+
+                <TextView
+                    android:id="@+id/b62"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b63"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b64"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b65"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b66"
+                    style="@style/calenda" />
+
+                <TextView
+                    android:id="@+id/b67"
+                    style="@style/calenda" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/li"
+        android:background="@color/fondo_calendario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1.5"
+        android:horizontalSpacing="1dip" >
+
+
+    </ListView>
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3132149477087366/5167153277">
+       <!--ads:adUnitId="@string/baner_inicio">-->
+
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_flotante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="65dp"
+    android:visibility="invisible"
+        android:src="@drawable/anadir"
+        ads:backgroundTint="@color/rojo" />
+</RelativeLayout>
+
+

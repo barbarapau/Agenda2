@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="abr">ABRIL</string>
+    <string name="aceptar">Salvar</string>
+    <string name="ago">AGOSTO</string>
+    <string name="dic">DEZEMBRO</string>
+    <string name="empezar">Começar</string>
+    <string name="error_evento">Não há texto para salvar</string>
+    <string name="evento1">Você tem um evento</string>
+    <string name="inicio">Bem-vindo, pressione e segure o dia em que deseja adicionar um novo evento.</string>
+    <string name="jul">JULHO</string>
+    <string name="jun">JUNHO</string>
+    <string name="mas">Mais</string>
+    <string name="mas_dias">Adicione este mesmo evento a outros dias</string>
+    <string name="may">MAIO</string>
+    <string name="modifica_color">Mude a cor</string>
+    <string name="nov">NOVEMBRO</string>
+    <string name="oct">OUTUBRO</string>
+    <string name="ocultar">Esconder</string>
+    <string name="sep">SETEMBRO</string>
+    <string name="texto">Adicionar texto</string>
+    <string name="texto_evento">Adicionar um texto</string>
+    <string name="domingo">Do</string>
+    <string name="ene">JANEIRO</string>
+    <string name="feb">FEVEREIRO</string>
+    <string name="mar">MARÇO</string>
+    <string name="jueves">Qu</string>
+    <string name="lunes">Se</string>
+    <string name="martes">TE</string>
+    <string name="miercoles">Qu</string>
+    <string name="sabado">Sa</string>
+    <string name="viernes">Se</string>
+    <string name="agenda" >Calen</string>
+    <string name="mes_actual">Hoje</string>
+    <string name="error">Erro. Excluir e recriá-lo</string>
+    <string name="repetir">Repetir</string>
+    <string name="p_viernes">S</string>
+    <string name="p_sabado">S</string>
+    <string name="p_jueves">Q</string>
+    <string name="p_lunes">S</string>
+    <string name="p_martes">T</string>
+    <string name="p_miercoles">Q</string>
+    <string name="p_domingo">D</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Salvar</string>
+</resources>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calen60th</string>
+    <string name="abr">AVRIL</string>
+    <string name="aceptar">Sauvegarder</string>
+    <string name="ago">AOÛT</string>
+    <string name="dic">DÉCEMBRE</string>
+    <string name="empezar">Commencer</string>
+    <string name="error_evento">Il n\'y a pas de texte à enregistrer</string>
+    <string name="evento1">Vous avez un événement</string>
+    <string name="inicio">Bienvenue, maintenez le jour où vous souhaitez ajouter un nouvel événement.</string>
+    <string name="jul">JUILLET</string>
+    <string name="jun">JUIN</string>
+    <string name="mas">Plus</string>
+    <string name="mas_dias">Ajouter ce même événement à d\'autres jours</string>
+    <string name="may">MAI</string>
+    <string name="modifica_color">Changer la couleur</string>
+    <string name="nov">NOVEMBRE</string>
+    <string name="oct">OCTOBRE</string>
+    <string name="ocultar">Cacher</string>
+    <string name="sep">SEPTEMBRE</string>
+    <string name="texto">Ajouter un texte</string>
+    <string name="texto_evento">Ajouter un texte</string>
+    <string name="ene">JANVIER</string>
+    <string name="feb">FÉVRIER</string>
+    <string name="domingo">Di</string>
+    <string name="jueves">Je</string>
+    <string name="lunes">Lu</string>
+    <string name="martes">Ma</string>
+    <string name="mar">MARS</string>
+    <string name="miercoles">Me</string>
+    <string name="viernes">Ve</string>
+    <string name="sabado">Sa</string>
+    <string name="agenda">Calen</string>
+    <string name="mes_actual">Aujourd\'hui</string>
+    <string name="error">Erreur. Supprimez et recréez-le</string>
+    <string name="repetir">Répéter</string>
+    <string name="p_viernes">V</string>
+    <string name="p_sabado">S</string>
+    <string name="p_jueves">J</string>
+    <string name="p_lunes">L</string>
+    <string name="p_martes">M</string>
+    <string name="p_miercoles">M</string>
+    <string name="p_domingo">D</string>
+    <string name="cancelar">Annuler</string>
+    <string name="guardar">Sauvegarder</string>
+</resources>
+

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparente"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="smile.agenda.AnadirDias">
+
+
+    <LinearLayout
+        android:id="@+id/layoutAnadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/a_n"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        tools:ignore="RtlHardcoded">
+
+        <ImageButton
+            android:id="@+id/anteM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.40"
+            android:background="@color/transparente"
+            android:contentDescription="@string/i"
+            android:src="@mipmap/anterior"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mesM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:capitalize="words"
+                android:fontFamily="@font/arcon"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/gris_letra_n"
+                android:textSize="18sp"
+                tools:text="Octubre" />
+
+            <TextView
+                android:id="@+id/anoM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/arcon"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/gris_letra_n"
+                android:textSize="15sp"
+                android:text="2020" />
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/siguiM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:background="@color/transparente"
+            android:contentDescription="@string/i"
+            android:src="@mipmap/siguiente" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tablaFondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_fondo">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:id="@+id/lunesM"
+                style="@style/anadirDias_semana"
+                android:text="@string/lunes" />
+
+            <TextView
+                android:id="@+id/martesM"
+                style="@style/anadirDias_semana"
+                android:text="@string/martes" />
+
+            <TextView
+                android:id="@+id/miercolesM"
+                style="@style/anadirDias_semana"
+                android:text="@string/miercoles" />
+
+            <TextView
+                android:id="@+id/juevesM"
+                style="@style/anadirDias_semana"
+                android:text="@string/jueves" />
+
+            <TextView
+                android:id="@+id/viernesM"
+                style="@style/anadirDias_semana"
+                android:text="@string/viernes" />
+
+            <TextView
+                android:id="@+id/sabadoM"
+                style="@style/anadirDias_fin"
+                android:text="@string/sabado" />
+
+            <TextView
+                android:id="@+id/domingoM"
+                style="@style/anadirDias_fin"
+                android:text="@string/domingo"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ToggleButton
+                android:id="@+id/b11M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b12M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b13M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b14M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b15M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b16M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b17M"
+                style="@style/cf" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ToggleButton
+                android:id="@+id/b21M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b22M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b23M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b24M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b25M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b26M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b27M"
+                style="@style/cf" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ToggleButton
+                android:id="@+id/b31M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b32M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b33M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b34M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b35M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b36M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b37M"
+                style="@style/cf" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ToggleButton
+                android:id="@+id/b41M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b42M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b43M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b44M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b45M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b46M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b47M"
+                style="@style/cf" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <ToggleButton
+                android:id="@+id/b51M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b52M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b53M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b54M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b55M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b56M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b57M"
+                style="@style/cf" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1">
+
+            <ToggleButton
+                android:id="@+id/b61M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b62M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b63M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b64M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b65M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b66M"
+                style="@style/cf" />
+
+            <ToggleButton
+                android:id="@+id/b67M"
+                style="@style/cf" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnVarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blanco"
+        android:fontFamily="@font/arcon"
+        android:text="@string/aceptar"
+
+        android:textColor="@color/marron"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+
+
+
